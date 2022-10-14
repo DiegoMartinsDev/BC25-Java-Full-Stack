@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;margin:0;
+    }
+
+.my-button{
+    background-color: greenyellow;
+    border: none;
+    color:white;
+    padding: 16px 24px;
+    font-size: 16px;
+    margin:6px 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.my-button:hover{
+    background-color: cadeteblue;
+}
+.my-button:active{
+    position: relative;
+    top: 1px;
+}
+.my-button-azul{
+    background-color: yellowgreen;
+}
+.my-table{
+    width: 500px;
+    border-collapse: collapse;
+    margin:auto;
+}
+.my-table td, .my-table th{
+    border:1px solid #ddd;
+    padding:8px;
+}
+.my-table th{
+    background-color: cornflowerblue;
+    padding:12px;
+    color: white;
+}
+.my-table tr:hover{
+    background-color: #ddd;
+}

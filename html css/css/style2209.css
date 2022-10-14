@@ -1,0 +1,29 @@
+h3{
+    background-color: red;
+}
+.box1{
+    background-color: coral;
+    padding: 16px;
+    margin: 8px;
+}
+.box2{
+    background-color: green;
+    padding:8px 20px 4px 10px;
+}
+.box3{background-color: brown;
+border: 2px solid yellow;
+border-radius: 100px;
+padding: 50px;
+margin: 20px;
+}
+.box4{
+    background-color: seagreen;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://i0.wp.com/semprefuigeek.com.br/wp-content/uploads/2022/04/quais-sao-os-aneis-do-poder.jpg?fit=1280%2C853&ssl=1");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
