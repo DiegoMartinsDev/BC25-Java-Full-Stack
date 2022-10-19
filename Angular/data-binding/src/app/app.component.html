@@ -1,0 +1,16 @@
+<!-- 
+<p>{{title}}</p>
+<p>O resultado da soma de 20 + 10 é {{somar(20,10)}}</p>
+<input [type]="tipoInput" value="title">
+<button (click)="mudarTipoDoInput()">Mostrar/Esconder</button> -->
+
+
+<!-- Aqui estou linkando o n1 ao meu input  --> 
+<input type="number" placeholder="Digite o 1º número"[(ngModel)]="n1" name="valor1"> 
+<input type="number" placeholder="Digite o 2º número"[(ngModel)]="n2" name="valor2">
+ 
+
+<!-- string stipulation -->
+<p>
+    {{n1}} + {{n2}} = {{n1+n2}}
+</p>
