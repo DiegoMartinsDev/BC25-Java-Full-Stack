@@ -2,15 +2,23 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ProdutoComponent } from './produto/produto.component';
 
-@NgModule({
+@NgModule({  //declarations registra componentes,pipes diretivas e estruturas*/
+
+
   declarations: [
-    AppComponent
+    AppComponent,
+    ProdutoComponent
   ],
-  imports: [
+  imports: [    //serve para registrar outros módulos dentro de outro módulo/
+
+
     BrowserModule
   ],
-  providers: [],
+  providers: [],      //serve para registrar serviços e interceptadores http//
+
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
