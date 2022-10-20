@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'comunicacao-entre-componentes';
+
+  mostrarMsg() {
+
+    alert('O upload foi concluído com sucesso')
+
+  }
+
 }
