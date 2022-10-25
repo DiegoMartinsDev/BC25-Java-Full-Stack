@@ -57,5 +57,22 @@ public class CalculadoraIMC {
                default:
                    System.out.println("esta dieta não existe");
            }
+
+           System.out.println("Você tem quantos alimentos preferidos?");
+           int totalAlimentos = entrada.nextInt();
+
+           for(int i=0; i < totalAlimentos; i++){
+               System.out.println(i);
+           }
+          int i = 0;
+           while(i < totalAlimentos){
+               System.out.println(i);
+               i++;
+
+           }
        }
 }
+
+
+
+
