@@ -38,7 +38,7 @@ public class Correcao1 {
 
             case 4 -> {
                 double divisao = valor1 / valor2;
-                System.out.println("O resultado da divisão é " + divisao);
+                System.out.println("O resultado   da   divisão é " + divisao);
             }
 
 
