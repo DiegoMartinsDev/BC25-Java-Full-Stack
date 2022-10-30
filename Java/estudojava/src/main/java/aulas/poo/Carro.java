@@ -10,13 +10,14 @@ public class Carro {
     int ano;
     boolean ehflex;
     int qtPortas;
-    double combustivelAtual;
+
     double consumo;
+    double combustivelAtual;
     boolean estaLigado;
 
     //Construtor
 
-    Carro(String modelo, String marca, int ano, boolean ehflex, int qtPortas, double combustivelAtual, double consumo, boolean estaLigado){
+    Carro(String modelo, String marca, int ano, boolean ehflex, int qtPortas, double consumo, boolean estaLigado){
 
 
              this.modelo = modelo;
@@ -42,7 +43,7 @@ public class Carro {
     }
     //viajar
     boolean viajar(String local, double distancia){
-        if (this.estaLigado ){
+        if (!this.estaLigado ){
             this.ligar();
         }
         //Calcula quantos litros são necessários
@@ -60,23 +61,8 @@ public class Carro {
     }
 
     public static void main(String[] args) {
-        Carro carro1 = new Carro("XY", "Ferrari", 2019, true, 4,40);
-        Carro carro2 = new Carro("PP","MERCEDES",2022,false,2,50);
 
-        System.out.println(carro1.combustivelAtual);
-        carro1.abastecer(5);
-        System.out.println(carro1.combustivelAtual); // mostra com 35 l
 
-        System.out.println(carro1.estaLigado);
-        carro1.ligar();
-        System.out.println(carro1.estaLigado);
-
-        System.out.println(carro1.ano);
-        carro1.ano = 2022;
-        System.out.println(carro1.ano);
-
-        boolean viajou = carro1.viajar("São Paulo", 3000);
-        System.out.println(viajou);
 
     }
 }

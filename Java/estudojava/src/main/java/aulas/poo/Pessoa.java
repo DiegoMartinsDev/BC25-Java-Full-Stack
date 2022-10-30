@@ -1,5 +1,7 @@
 package aulas.poo;
 
+import java.util.ArrayList;
+
 public class Pessoa {
    String nome;
    String sobrenome;
@@ -7,6 +9,7 @@ public class Pessoa {
    double altura;
    double peso;
 
+    ArrayList<Pessoa> conhecidos = new ArrayList<>();
 
    Pessoa(){
       this.nome = "Diego";
@@ -48,6 +51,34 @@ public class Pessoa {
       double imc = this.peso / (this.altura*this.altura);
       return imc;
 
+   }
+   void comer(String comida){
+      System.out.println("Estou comendo "+ comida);
+      this.peso += 1.5;
+   }
+   
+   void cumprimentar(Pessoa pessoa){
+      this.dizOla();
+      pessoa.dizOla();
+      
+      if(!this.conhecePessoa(pessoa)){
+         this.addPessoaNova(pessoa);
+         pessoa.addconhecePessoa(this);
+      }
+   }
+
+   private void addconhecePessoa(Pessoa pessoa) {
+   }
+
+   private void addPessoaNova(Pessoa pessoa) {
+   }
+
+   void addPessoa(Pessoa pessoa){
+      System.out.println(this.nome + " conheceu "+ pessoa.nome +"!!!");
+      this.conhecidos.add(pessoa);
+   }
+   boolean conhecePessoa(Pessoa pessoa){
+      return this.conhecidos.contains(pessoa);
    }
 
 
