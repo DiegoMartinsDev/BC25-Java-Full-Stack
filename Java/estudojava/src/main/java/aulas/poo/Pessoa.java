@@ -35,7 +35,19 @@ public class Pessoa {
 
 
    void dizOla(){
+
       System.out.println("Olá, tudo bem. Meu nome é "+this.nome);
+   }
+
+   void mostrarImc(){
+      double imc = this.peso / (this.altura * this.altura);
+      System.out.println("o imc é "+ imc);
+   }
+
+   double calculaImc(){
+      double imc = this.peso / (this.altura*this.altura);
+      return imc;
+
    }
 
 
