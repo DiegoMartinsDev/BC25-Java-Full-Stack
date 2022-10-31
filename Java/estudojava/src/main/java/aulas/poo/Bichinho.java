@@ -6,12 +6,11 @@ public class Bichinho {
     public double peso;
     public String bucho;
     public boolean estaDormindo;
-}
-Bichinho(String nome, double idade,double peso,String bucho,boolean estaDormindo)
-{
+
+Bichinho(String nome, double idade,double peso,String bucho,boolean estaDormindo){
     this.nome = nome;
     this.idade = idade;
     this.peso = peso;
     this.bucho = bucho;
     this.estaDormindo = false;
-}
+} }
