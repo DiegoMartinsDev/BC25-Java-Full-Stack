@@ -26,7 +26,8 @@ public class Pet {
             System.out.println("Estou brincando...");
         }
         public double getPeso(){
-             return this.peso;
+
+        return this.peso;
         }
         public void setPeso(double novoPeso){
               this.peso = novoPeso;
