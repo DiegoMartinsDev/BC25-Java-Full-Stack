@@ -8,10 +8,21 @@ public class TesteControleEstoque {
 
         ControleEstoque estoque = new ControleEstoque();
 
-        controle.idProduto = 1;
-        controle.lote = 1201;
-        controle.Qualidade = "Dentro da validade";
-        controle.quantidade =10;
-        controle.validade = LocalDate.of(2022,12,12);
+        estoque.setIdProduto(1);
+        estoque.setLote(1201);
+        estoque.setQualidade("Dentro da validade");
+        estoque.setQuantidade(10);
+        estoque.setValidade( LocalDate.of(2022,12,12));
+
+        estoque.aumentarQtd (830); // aumenta o estoque
+
+        estoque.diminuirQTD(0);  // diminui o estoque
+
+        System.out.println(
+                "Estoque atual do produto com id " +estoque.getIdProduto()+
+                " é de :"+estoque.getQuantidade()+
+                " unidades, com validade até "+estoque.getValidade()+
+                ". Registrado em lote "+estoque.getLote()+
+                " está "+estoque.getQualidade()); //mostra o estoque atual
     }
 }
