@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13ad98ba-ff42-4a25-ac16-297524576619" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/Controller/CargoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/config/DevConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/domain/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/repositories/CargoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/services/CargoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpr/src/main/java/org/soulcodeacademy/helpr/services/PopulateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Estudoarrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Estudoarrays/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Estudoarrays/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Estudoarrays/Estudoarrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helpr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helpr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helpr/src/main/resources/aplication-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helpr/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../helpr/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helpr/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../helpr/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H305Nn7CJRtG6prHZ1PSjc0eiR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/BC25-Java-Full-Stack/Java/estudojava"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ProdutoTestar">
+    <configuration name="CarroTestar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarroTestar" />
+      <module name="Carro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoTestar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProdutoTestar" />
+      <module name="Carro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProdutoTestar" />
+        <item itemvalue="Application.CarroTestar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ad98ba-ff42-4a25-ac16-297524576619" name="Changes" comment="" />
+      <created>1667498275955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667498275955</updated>
+    </task>
+    <servers />
+  </component>
+</project>
